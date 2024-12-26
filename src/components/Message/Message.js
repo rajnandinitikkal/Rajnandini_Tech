@@ -28,7 +28,7 @@ function Message() {
 
                         <div className='text-center mt-2'
                             style={{width: "100%"}}>
-                            <a target='_blank' href="https://drive.google.com/file/d/1HnwubyLtea88fB0GG-bwxH1X2W5-sbNs/view?usp=drive_link"> 
+                            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1HnwubyLtea88fB0GG-bwxH1X2W5-sbNs/view?usp=drive_link"> 
                             <button type="button" class="btn-resume2"><p><i class="fa-sharp fa-solid fa-file-certificate"></i> Degree Certificate</p></button>
                             </a>
                         </div>

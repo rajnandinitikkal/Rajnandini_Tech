@@ -2,6 +2,7 @@ import React from 'react';
 import Rutuimg from './PassportPhoto.jpg';
 import './Information.css';
 import rtcLogo from './rtc-logo.png';
+import azuremg from './icons8-azure-48.png';
 import Github from './github-logo.png';
 import Linkdin from './linkdin-logo.png';
 import Twitter from './twitter-logo.png';
@@ -14,7 +15,7 @@ function Information() {
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-6'>
-                        <img src={Rutuimg} className='header-img mt-5 mx-auto d-block' />
+                        <img src={Rutuimg} className='header-img mt-5 mx-auto d-block' alt='logo'/>
                         <h4 className='text-center mt-3'>Rajnandini Tikkal</h4>
                         <h5 className='text-center mt-1'>Java Full Stack Developer 💻</h5>
 
@@ -40,6 +41,12 @@ function Information() {
                             </div>
                         </div>
 
+                        <div className='text-center mt-4'>
+                            <a target='_blank' href="https://drive.google.com/file/d/1HnwubyLtea88fB0GG-bwxH1X2W5-sbNs/view?usp=drive_link" alt='logo' rel="noreferrer"> 
+                            <button type="button" class="btn-resume btn-sm m-2"><b><i class="far fa-file-alt"></i> Show Resume</b></button>
+                            </a>
+                        </div>
+
                     
 
                     </div>
@@ -48,11 +55,7 @@ function Information() {
                             "Hi, I'm <b>Rajnandini Tikkal</b>! I'm a Java full stack developer and I love coding. I have experience with programming languages like JavaScript, ReactJs and Java, and have worked on web development projects using HTML, CSS, JavaScript, Bootstrap, Node.js, React.js, and Java. I'm passionate about creating functional and user-friendly applications. Let's work together and create something great!"
                         </div>
 
-                        <div className='text-center mt-4'>
-                            <a target='_blank' href="https://drive.google.com/file/d/1HnwubyLtea88fB0GG-bwxH1X2W5-sbNs/view?usp=drive_link"> 
-                            <button type="button" class="btn-resume btn-sm m-2"><b><i class="far fa-file-alt"></i> Show Resume</b></button>
-                            </a>
-                        </div>
+                       
 
                         <div className='mt-4 card-skill'>
                             <p className='text-center'>
@@ -67,11 +70,14 @@ function Information() {
 
                         <div className='m-5 mt-5 rtc-card'>
                             <a href='https://www.roadtocode.org/' target='blank' className='rtc-logo-a'>
-                                <h5><img src={rtcLogo} className="rtc-logo" /> Road To code</h5>
+                                <h5><img src={azuremg} className="rtc-logo" alt='logo'/> Microsoft Certified</h5>
                             </a>
-                            <b>Founding Member at Road To Code</b>.
-                            We are Helping and Exploring Students To start their Programming Journey . I am Confident to solve Student programming doubt,
-                            i have a strong problem sovling skill.
+                            <b>Interned at Kasnet technologies</b>
+                            <br></br>
+                            Successfully completed an internship at Kasnet Technologies for 1.5 months, gaining hands-on experience with Microsoft
+Azure. Achieved the Microsoft Certified: Azure Fundamentals certification, demonstrating proficiency in core Azure services,
+cloud concepts, security, compliance, and cost management.
+                            
                         </div>
                     </div>
                 </div>
