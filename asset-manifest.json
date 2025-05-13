@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Rajnandini_Tech/static/css/main.9f23f29d.css",
+    "main.js": "/Rajnandini_Tech/static/js/main.c748732d.js",
+    "static/media/PassportPhoto.jpg": "/Rajnandini_Tech/static/media/PassportPhoto.c71f1765a849e7c5aa1a.jpg",
+    "static/media/rtc-logo.png": "/Rajnandini_Tech/static/media/rtc-logo.f6ff01cb815df8ef175c.png",
+    "index.html": "/Rajnandini_Tech/index.html",
+    "main.9f23f29d.css.map": "/Rajnandini_Tech/static/css/main.9f23f29d.css.map",
+    "main.c748732d.js.map": "/Rajnandini_Tech/static/js/main.c748732d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f23f29d.css",
+    "static/js/main.c748732d.js"
+  ]
+}
